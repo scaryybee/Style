@@ -12,7 +12,7 @@ $Version = "1.16.5"
 
 # Plugins
 $Plugins = (
-    "https://github.com/Jaemin-MC/Craft-Recipe/releases/download/2.0/CraftRecipe.jar"
+    "https://github.com/Jaemin-MC/Style/releases/download/lastest/Style.jar"
 )
 
 Function Download-File
