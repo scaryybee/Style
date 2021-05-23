@@ -1,3 +1,5 @@
+# Made by Jaemin-MC (PLEASE DON'T ERASE THIS PHRASE)
+
 # Gradle
 $Build = $false
 
