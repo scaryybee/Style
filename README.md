@@ -16,6 +16,7 @@ You can set player's style with & Color code.
 
 # & 색 코드
 당신은 & 색 코드를 이용해 당신의 칭호를 정할 수 있습니다.
+ex) &aJaemin-MC
 
 # & Color Code
 
