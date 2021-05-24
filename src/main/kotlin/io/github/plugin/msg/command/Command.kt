@@ -55,6 +55,7 @@ class Command(private val plugin: Message): CommandExecutor {
                                 }
                                 style += args[2][j]
                             }
+                            style += " "
                         }
                         this.plugin.serverconfig!!.set(player?.uniqueId.toString() + ".style", style)
                         this.plugin.saveConfig()
@@ -64,13 +65,13 @@ class Command(private val plugin: Message): CommandExecutor {
 
             "style" -> {
                 if(args.size < 3) {
-                    sender.sendMessage("${ChatColor.RED}칭호를 줄 사람과 칭호를 입력해주세요!")
+                    sender.sendMessage("${ChatColor.RED}Incomplete Command!")
                     return false
                 }
                 when(args[0]) {
                     "set" -> {
                         val player = Bukkit.getPlayer(args[1])
-                        if(player == null) sender.sendMessage("${ChatColor.RED}존재하지 않는 플레이어입니다.")
+                        if(player == null) sender.sendMessage("${ChatColor.RED}This player is not identified.")
                         var style = ""
                         val len = args.size - 1
                         for(i in 2..len) {
@@ -93,6 +94,7 @@ class Command(private val plugin: Message): CommandExecutor {
                                 }
                                 style += args[2][j]
                             }
+                            style += " "
                         }
                         this.plugin.serverconfig!!.set(player?.uniqueId.toString() + ".style", style)
                         this.plugin.saveConfig()
