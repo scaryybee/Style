@@ -9,7 +9,7 @@ Set your Style
 ### /칭호 설정 [플레이어] [해당 플레이어의 칭호]
 
 ## /귓 [플레이어] [메시지]
-### 작동하지 않는 명령어입니다. 구현을 하다 중단되었습니다.
+### 작동하지 않는 명령어입니다. 구현이 중단되었습니다.
 
 # & Color Code
 You can set player's style with & Color code.
