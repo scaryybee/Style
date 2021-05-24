@@ -1,14 +1,3 @@
-#name: HOW-TO-SURVIVE-THE-APOCALYPSE
-#main: io.github.plugin.apocalypse.Main
-#version: 1.16.5
-#api-version: 1.16
-#author: RANK0816
-#commands:
-#  vaccine:
-#    permission: op
-#  monster:
-#    permission: op
-
 name: MESSAGE
 main: io.github.plugin.msg.Message
 version: 1.16.5
@@ -20,12 +9,3 @@ commands:
     permission: op
   style:
     permission: op
-
-#name: Block-Monster-Spawn
-#main: io.github.plugin.MonsterSpawn.Monster
-#version: 1.16.5
-#api-version: 1.16
-#author: RANK0816
-#commands:
-#  spawnmonster:
-#    permission: op
